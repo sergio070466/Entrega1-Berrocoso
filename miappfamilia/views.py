@@ -11,7 +11,7 @@ def inicio(request):
     return render(request, "miappfamilia/index.html")
 
 def familia(request):
-    return HttpResponse("Estas en Organigrma de Familia")
+    return render(request, "miappfamilia/temp_familia.html")
 
 def pantalones(request):
     return HttpResponse("Producto Pantalones")
