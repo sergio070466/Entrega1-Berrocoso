@@ -10,12 +10,8 @@ from django.http import HttpResponse
 def inicio(request):
     return render(request, "miappfamilia/index.html")
 
-def familia(request):
-    return render(request, "miappfamilia/temp_familia.html")
-
 def pantalones(request):
-    return HttpResponse("Producto Pantalones")
-    
+    return render(request, "miappfamilia/pantalones.html")  
 
 def camisas(request):
     return HttpResponse("Producto Camisas")

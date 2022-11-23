@@ -3,7 +3,7 @@ from miappfamilia.views import *
 
 urlpatterns = [
     
-    path('familia/', familia),
+    path('inicio/', inicio),
     path('pantalones/', pantalones),
     path('camisas/', camisas),
       
